@@ -1,0 +1,35 @@
+.container {
+  padding: 0 !important;
+}
+.netflix-red {
+   background-color: #e50914; 
+  /* background-color: crimson; */
+}
+.netflix-black {
+  background-color: black;
+}
+
+.navbar-dark {
+  color: crimson;
+}
+
+.navbar-style .navbar-brand {
+  color: crimson;
+}
+
+.navbar-style a {
+  color: crimson;
+}
+
+.navbar-style a:hover {
+  color: crimson;
+}
+.sidebar-style {
+  width: 280px;
+}
+.bi {
+  vertical-align: -0.125em;
+  pointer-events: none;
+  fill: currentColor !important;
+  margin-right: 0.5rem !important;
+}
