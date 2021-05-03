@@ -6,6 +6,7 @@ import { Card, Button } from "react-bootstrap";
 
 
 
+
 function Context() {
   return (
     <div class="container">
@@ -62,22 +63,101 @@ function Context() {
             </li>
             
             <li>
-            <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="#" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
- <div class="card-header">Header</div>
-  <div class="card-body text-primary">
-    <h5 class="card-title">Primary card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+            <Card bg="secondary" border="primary" text="dark" style={{ width: 'auto' }}>
+    <Card.Header>Header1</Card.Header>
+    <Card.Body>
+      <Card.Title>Primary Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.1
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+
+  <Card bg="success" border="secondary" text="dark" style={{ width: '30rem' }}>
+    <Card.Header>Header2</Card.Header>
+    <Card.Body>
+      <Card.Title>Secondary Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.2
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+
+  <Card bg="danger" border="success" text="dark" style={{ width: '30rem' }}>
+    <Card.Header>Header3</Card.Header>
+    <Card.Body>
+      <Card.Title>Success Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.3
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+
+  <Card border="danger" text="dark" style={{ width: '30rem' }}>
+    <Card.Header>Header4</Card.Header>
+    <Card.Body>
+      <Card.Title>Danger Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content. 4
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+
+  <Card border="warning" text="dark" style={{ width: '30rem' }}>
+    <Card.Header>Header5</Card.Header>
+    <Card.Body>
+      <Card.Title>Warning Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.5
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+
+  <Card border="info" text="dark" style={{ width: '30rem' }}>
+    <Card.Header>Header6</Card.Header>
+    <Card.Body>
+      <Card.Title>Info Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.6
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+
+  <Card border="light" text="dark" style={{ width: '30rem' }}>
+    <Card.Header>Header7</Card.Header>
+    <Card.Body>
+      <Card.Title>Dark Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.7
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+
+  <Card bg="light-blue" border="dark" text="dark" style={{ width: '30rem' }}>
+    <Card.Header>Header8</Card.Header>
+    <Card.Body>
+      <Card.Title>Light Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.8
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
             </li>
           </ul>
         </div>
